@@ -23,7 +23,10 @@
     }
   },
   "angularCompilerOptions": {
-    "annotationsAs": "decorators" 
+    "skipTemplateCodegen": true,
+    "skipMetadataEmit": false,
+    "strictMetadataEmit": false,
+    "annotationsAs": "decorators"
   },
   "include": [
       "index.ts",
