@@ -20,8 +20,10 @@
       "@angular/*": [
         "../../../node_modules/@angular/*"
       ]
-    },
-    "annotationsAs": "decorators"
+    }
+  },
+  "angularCompilerOptions": {
+    "annotationsAs": "decorators" 
   },
   "include": [
       "index.ts",
